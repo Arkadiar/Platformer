@@ -1,0 +1,26 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "default": "markup.html",
+  "scripts": {
+    "start": "parcel markup.html",
+    "build": "parcel build markup.html --dist-dir ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kaboomjs",
+    "kaboom",
+    "demonboy"
+  ],
+  "author": "Arkadia",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "kaboom": "^2000.0.0-beta.24",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "alias": {
+    "kaboom": "./node_modules/kaboom/dist/kaboom.mjs"
+  }
+}
